@@ -7,6 +7,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 	Duration = 20
 })
 if table.find(TablePlace,game.PlaceId) then
+    getgenv().Key= "Vincentt129"
     getgenv().Game = "BF"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/BF-New.lua"))()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/UserDevEthical/other/refs/heads/main/secure_call.lua"))()
